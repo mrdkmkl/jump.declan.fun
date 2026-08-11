@@ -24,9 +24,9 @@ const ULTRA_REGEN    = 10;
 const PLAT_H         = 12;
 const GAP_BASE       = 62;
 const DIFF_SCALE_PER_1000M = 0.008;  // gap grows by 0.008× every 1000 score pts (much gentler)
-const COIN_VALUE     = 100;    // base coin value on platforms / shower (multipliers apply on top)
-const BOUNCE_COIN_VALUE = 10;  // base coin value earned from bouncing on a platform (multipliers apply on top)
-const MONEYBAG_VALUE = 10000;  // rare high-value pickup found on some platforms
+const COIN_VALUE     = 25;    // base coin value on platforms / shower (multipliers apply on top)
+const BOUNCE_COIN_VALUE = 5;  // base coin value earned from bouncing on a platform (multipliers apply on top)
+const MONEYBAG_VALUE = 2000;  // rare high-value pickup found on some platforms
 
 /* ════════════════════════════════════════
    SHOP / POWERUP DATA
