@@ -2,7 +2,7 @@
    VERSION
 ════════════════════════════════════════ */
 (function(){
-  const BASE = 'V1.1.0';
+  const BASE = 'V1.1.1';
   try{
     const el = document.getElementById('version-tag');
     if(el) el.textContent = BASE + ' (alpha)';
@@ -12,7 +12,7 @@
 /* ════════════════════════════════════════
    CONSTANTS
 ════════════════════════════════════════ */
-const GRAVITY        = 0.20;
+const GRAVITY        = 0.28;
 const JUMP1          = -12.2;
 const JUMP2          = -10.8;
 const MOVE_SPEED     = 4.6;
