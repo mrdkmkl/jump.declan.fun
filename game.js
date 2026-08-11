@@ -2,7 +2,7 @@
    VERSION
 ════════════════════════════════════════ */
 (function(){
-  const BASE = 'V1.1.1';
+  const BASE = 'V1.1.12';
   try{
     const el = document.getElementById('version-tag');
     if(el) el.textContent = BASE + ' (alpha)';
