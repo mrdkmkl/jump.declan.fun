@@ -2,7 +2,7 @@
    VERSION
 ════════════════════════════════════════ */
 (function(){
-  const BASE = 'V1.0.94';
+  const BASE = 'V1.1.0';
   try{
     const el = document.getElementById('version-tag');
     if(el) el.textContent = BASE + ' (alpha)';
@@ -12,10 +12,10 @@
 /* ════════════════════════════════════════
    CONSTANTS
 ════════════════════════════════════════ */
-const GRAVITY        = 0.24;
+const GRAVITY        = 0.20;
 const JUMP1          = -12.2;
 const JUMP2          = -10.8;
-const MOVE_SPEED     = 5.2;
+const MOVE_SPEED     = 4.6;
 const BOOST_FORCE    = -5.5;
 const ULTRA_BOOST_FORCE = -16.5;
 const MAX_BOOSTS     = 10;
@@ -26,7 +26,7 @@ const GAP_BASE       = 62;
 const DIFF_SCALE_PER_1000M = 0.008;  // gap grows by 0.008× every 1000 score pts (much gentler)
 const COIN_VALUE     = 25;    // base coin value on platforms / shower (multipliers apply on top)
 const BOUNCE_COIN_VALUE = 5;  // base coin value earned from bouncing on a platform (multipliers apply on top)
-const MONEYBAG_VALUE = 2000;  // rare high-value pickup found on some platforms
+const MONEYBAG_VALUE = 1000;  // rare high-value pickup found on some platforms
 
 /* ════════════════════════════════════════
    SHOP / POWERUP DATA
